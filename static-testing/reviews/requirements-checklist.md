@@ -1,5 +1,6 @@
 
 # Checklist: Requirements Specification Review
+> **Source:** Adapted from *Software Requirements, Third Edition* by Karl Wiegers and Joy Beatty.
 > **Category:** Static Testing 
 
 ---
@@ -32,10 +33,12 @@ tradeoffs specified?
 
 ## 🔗 Traceability
 - [ ] Is each requirement uniquely and correctly identified?
-- [ ] Is each software functional requirement traceable to a higher-level requirement (e.g., system
-requirement, use case)?
+- [ ] Is each software functional requirement traceable to a higher-level requirement (e.g., system requirement, use case)?
 
 ## ⚠️ Special Issues
 - [ ] Are all requirements actually requirements, not design or implementation solutions?
 - [ ] Are all time-critical functions identified, and timing criteria specified for them?
 - [ ] Have internationalization issues been adequately addressed?
+
+
+
