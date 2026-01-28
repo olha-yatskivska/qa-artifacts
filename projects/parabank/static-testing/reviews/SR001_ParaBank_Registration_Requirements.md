@@ -41,5 +41,5 @@ The purpose of this static review is to identify potential ambiguities, missing 
 ## 💡 Recommendations:
 * **SR-REC-01:** Implement real-time inline validation for the "Confirm Password" field to provide immediate feedback (Addresses SR-RISK-11).
 * **SR-REC-02:** Define and document Min/Max character limits for all input fields (Addresses SR-RISK-04 & SR-RISK-06).
-* * **SR-REC-03:** Add a mandatory "Date of Birth" field with age validation logic (Minimum 18 years) to ensure legal compliance (Addresses SR-RISK-12).
+* **SR-REC-03:** Add a mandatory "Date of Birth" field with age validation logic (Minimum 18 years) to ensure legal compliance (Addresses SR-RISK-12).
 
