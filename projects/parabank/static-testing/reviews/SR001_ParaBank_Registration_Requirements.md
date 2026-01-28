@@ -36,7 +36,7 @@ The purpose of this static review is to identify potential ambiguities, missing 
 * **SR-RISK-09:** Identity Theft (Duplicate SSN): System might allow creating a second account with an already registered SSN.
 * **SR-RISK-10:** Contact Info Duplication: No policy on whether multiple users can share the same Phone number.Username Uniqueness Logic.
 * **SR-RISK-11: Poor UX due to Late Validation.** Missing real-time (inline) match check for "Confirm Password" field. (Risk: User frustration and repeated data entry if passwords don't match after form submission).
-* * **SR-RISK-12: Legal Compliance (Age Verification).** The form lacks a "Date of Birth" field. (Risk: Underage users can register, leading to legal and regulatory violations for a financial institution).
+* **SR-RISK-12: Legal Compliance (Age Verification).** The form lacks a "Date of Birth" field. (Risk: Underage users can register, leading to legal and regulatory violations for a financial institution).
 
 ## 💡 Recommendations:
 * **SR-REC-01:** Implement real-time inline validation for the "Confirm Password" field to provide immediate feedback (Addresses SR-RISK-11).
