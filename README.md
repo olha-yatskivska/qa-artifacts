@@ -7,8 +7,8 @@ This mapping demonstrates the alignment between the Software Testing Life Cycle 
 
 | Test Activity | Corresponding Testware (Artifacts) | Folder / Reference |
 | :--- | :--- | :--- |
-| **Test Planning** | [One-page Test Plan #TP001](./templates/test-plans/one-page-test-plan.md) | [📂 test-plans](./templates/test-plans/) |
-| **Test Analysis** | [Requirements Specification Review Checklist](./static-testing/reviews/requirements-checklist.md) | [📂 checklists](./static-testing/reviews/) |
+| **Test Planning** | [One-page Test Plan #TP001](./test-plans/templates/one-page-test-plan.md) | [📂 test-plans](./test-plans/) |
+| **Test Analysis** |  [Requirements Specification Review Checklist](./static-testing/reviews/requirements-checklist.md)  [Static_Review_No_Requirements](./static-testing/templates/Static_Review_No_Requirements.md)| [📂 checklists](./static-testing/) |
 | **Test Design** | [API & UI Test Scenarios / Checklists]() | `📂 checklists` |
 | **Test Execution: Unit Level** | [Python Logic & Data Cleaning Scripts]() | `📂 basics-and-control-flow` |
 | **Test Execution: API Level** | [Postman Collections & JSON Validations]() | `📂 network-programming` |
