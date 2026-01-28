@@ -11,34 +11,35 @@
 The purpose of this static review is to identify potential ambiguities, missing requirements, or logical inconsistencies in the **User Registration** form before starting the test design phase.
 
 ## 📋 Field Analysis Table
-| Field Name | Mandatory? | Expected Data Type / Constraints | Observations & Risks (Ambiguities) |
+| ID | Field Name | Mandatory? | Observations & Risks |
 | :--- | :--- | :--- | :--- |
-| **First Name** | Yes | String (Alpha) | What is the length limit? Are special characters allowed? |
-| **Last Name** | Yes | String (Alpha) | Same as First Name. |
-| **Address** | Yes | String (Alphanumeric) | Is there a format validation (e.g. Street, House)? |
-| **City** | Yes | String (Alpha) | Is there a dropdown or free text? |
-| **State** | Yes | String (Alpha) | Minimum 2 characters? |
-| **Zip Code** | Yes | Numeric / Alphanumeric | Only US format (5 digits) or international? |
-| **Phone #** | No? | Numeric / Special chars | It isn't mandatory. What format is expected? |
-| **SSN** | Yes | Numeric | Social Security Number format (XXX-XX-XXXX)? |
-| **Username** | Yes | String (Unique) | What happens if the username already exists? |
-| **Password** | Yes | String (Masked) | Complexity rules (digits, caps, length) are not specified. |
-| **Confirm** | Yes | String (Masked) | Must exactly match "Password". |
-
----
-
+| **F-01** | First Name | Yes | Length limit? Special characters support? |
+| **F-02** | Last Name | Yes | Same as First Name. |
+| **F-03** | Address | Yes | Format validation (Street, House)? |
+| **F-04** | City | Yes | Dropdown or free text? |
+| **F-05** | State | Yes | Minimum 2 characters? |
+| **F-06** | Zip Code | Yes | International support or US only? |
+| **F-07** | Phone # | No | Expected format/mask? |
+| **F-08** | SSN | Yes | Masking (XXX-XX-XXXX) requirement? |
+| **F-09** | Username | Yes | Uniqueness logic? |
+| **F-10** | Password | Yes | Complexity rules missing. |
+| **F-11** | Confirm | Yes | Match logic requirements. |
 
 ## 🚩 Logical & Business Risks Identified
-1. **Missing Complexity Rules:** No instructions for password strength (Risk: Weak passwords).
-2. **SSN Privacy:** Registration asks for SSN (Social Security Number). Is this encrypted? (Security Risk). 
-3. **Zip Code Localization:** If the bank is international, 5-digit zip might be too restrictive.
-4. **Buffer Overflow risks**: Absence of Client-side validation confirmed via HTML/CSS inspection; Server-side validation is potentially missing based on initial data entry (short strings accepted).
-5. **Error Messaging:** Validation messages appear inline (to the right of the field) in red text only for empty required fields.
-6. **Critical Lack of Validation:** All fields have no valiidation for min/max lenghth, no validation for spec symbols.
-7. **Undefined Field Formats:** Is absent mask for fields "Phone" and "Zip Code".
-8. **Username Uniqueness:** Can create two users with the same "Username"
+* **SR-RISK-01:** Missing Password Complexity Rules.
+* **SR-RISK-02:** SSN Privacy & Encryption.
+* **SR-RISK-03:** Zip Code Localization.
+* **SR-RISK-04:** Buffer Overflow (Missing Length Validation).
+* **SR-RISK-05:** Error Messaging Consistency.
+* **SR-RISK-06:** Critical Lack of Data Validation (Symbols/Length).
+* **SR-RISK-07:** Undefined Field Formats (Phone/Zip Masks).Username Uniqueness Logic (Current system allows/ambiguous).
+* **SR-RISK-09:** Identity Theft (Duplicate SSN): System might allow creating a second account with an already registered SSN.
+* **SR-RISK-10:** Contact Info Duplication: No policy on whether multiple users can share the same Phone number.Username Uniqueness Logic.
+* **SR-RISK-11: Poor UX due to Late Validation.** Missing real-time (inline) match check for "Confirm Password" field. (Risk: User frustration and repeated data entry if passwords don't match after form submission).
+* * **SR-RISK-12: Legal Compliance (Age Verification).** The form lacks a "Date of Birth" field. (Risk: Underage users can register, leading to legal and regulatory violations for a financial institution).
 
+## 💡 Recommendations:
+* **SR-REC-01:** Implement real-time inline validation for the "Confirm Password" field to provide immediate feedback (Addresses SR-RISK-11).
+* **SR-REC-02:** Define and document Min/Max character limits for all input fields (Addresses SR-RISK-04 & SR-RISK-06).
+* * **SR-REC-03:** Add a mandatory "Date of Birth" field with age validation logic (Minimum 18 years) to ensure legal compliance (Addresses SR-RISK-12).
 
-## 💡 Recommendation:
-* Define Min/Max character limits for each field. 
-* Add real-time validation (Inline validation) for the "Confirm Password" field. 
