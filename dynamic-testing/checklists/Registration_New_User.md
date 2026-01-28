@@ -1,4 +1,4 @@
-# 🏦 Test Design Checklist: ParaBank User Registration
+# 🏦 Test Design Checklist: User Registration
 **Techniques Applied:** Equivalence Partitioning (EP), Boundary Value Analysis (BVA), Error Guessing.
 
 ---
