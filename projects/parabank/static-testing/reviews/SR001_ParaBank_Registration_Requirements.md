@@ -32,7 +32,8 @@ The purpose of this static review is to identify potential ambiguities, missing 
 * **SR-RISK-04:** Buffer Overflow (Missing Length Validation).
 * **SR-RISK-05:** Error Messaging Consistency.
 * **SR-RISK-06:** Critical Lack of Data Validation (Symbols/Length).
-* **SR-RISK-07:** Undefined Field Formats (Phone/Zip Masks).Username Uniqueness Logic (Current system allows/ambiguous).
+* **SR-RISK-07:** Undefined Field Formats (Phone/Zip Masks).
+* **SR-RISK-08:** Username Uniqueness Logic (Current system allows/ambiguous).
 * **SR-RISK-09:** Identity Theft (Duplicate SSN): System might allow creating a second account with an already registered SSN.
 * **SR-RISK-10:** Contact Info Duplication: No policy on whether multiple users can share the same Phone number.Username Uniqueness Logic.
 * **SR-RISK-11: Poor UX due to Late Validation.** Missing real-time (inline) match check for "Confirm Password" field. (Risk: User frustration and repeated data entry if passwords don't match after form submission).
