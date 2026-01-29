@@ -11,3 +11,4 @@
 | **Show Complexity Warning** | | X (Short) | X (Weak) | X (Medium) | |
 | **Submit Button State** | Disabled | Disabled | Disabled | **Enabled** | **Enabled** |
 | **Account Creation Allowed** | No | No | No | Yes | Yes |
+
