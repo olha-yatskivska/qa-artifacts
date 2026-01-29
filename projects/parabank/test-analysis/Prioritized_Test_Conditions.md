@@ -111,4 +111,23 @@
 | **TC-PWD-11** | SR001.7 | Unit | Strong Strength | Security | P1 | Success: "Strong password" |
 
 ---
+## 10 Non-Functional
+| ID | Traceability | Test Level | Test Condition | Category | Priority |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **TC-ACC-01** | Legal/Risk | System | Keyboard navigation support (WCAG compliance) | Accessibility | P2 |
+| **TC-PERF-01** | UX/Risk | System | Loading state/Spinner display after submit | Performance | P3 |
+| **TC-DT-01** | SR001.8 | Integration | Decision Table: User/SSN/Phone uniqueness check | Logic/Data | P1 |
+| **TC-LOAD-01** | Risk-04 | System | System stability under 110% of peak load | Load | P2 |
+| **TC-STRESS-01** | Risk-05 | System | Data integrity check after forced service restart | Stress/Recovery | P1 |
+| **TC-CAP-01** | Scalability | System | Identify max concurrent registration requests | Performance | P3 |
+| **TC-SEC-08** | GDPR/PII | Integration | Sensitive data masking in Server/Console Logs | Security | P1 |
+| **TC-SEC-09** | Security | System | Session timeout and automatic logout | Security | P2 |
+| **TC-COMP-01** | Compatibility | System | Registration form rendering on mobile/desktop | Portability | P2 |
+| **TC-REL-01** | Reliability | System | Error handling during network disconnect | Reliability | P2 |
+| **TC-L10N-01** | Business | System | Support for international characters/date formats | L10n | P3 |
+| **TC-REC-02** | Risk-06 | System | Successful data restoration from backup | Recovery | P1 |
+| **TC-SEC-10** | Compliance | System | Audit logging for registration (Timestamp, IP) | Security | P2 |
+| **TC-PRIV-02** | GDPR | System | "Right to be forgotten" (Full user data deletion) | Privacy | P2 |
+
+---
 
