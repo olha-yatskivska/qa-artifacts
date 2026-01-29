@@ -12,8 +12,8 @@ This mapping demonstrates the alignment between the Software Testing Life Cycle 
 | :--- | :--- | :--- |
 | **Test Planning** | [One-page Test Plan #TP001](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-plans/templates/One_Page_Test_Plan.md) | `📂 test-plans` |
 | **Test Analysis** | [Requirements Review Checklist](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/reviews/Requirements_Checklist.md)<br>[Static Review (No Requirements)](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/templates/Static_Review_No_Requirements.md)<br>[Prioritized Test Conditions](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/Prioritized_Test_Conditions.md)<br>[Traceability Matrix (RTM)](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/RTM.md) | `📂 test-analysis` |
-| **Test Design** | Prioritized Test Cases <br> API & UI Scenarios<br>Decision Tables<br>Test Charters<br>Coverage Items<br>Test Data Requirements | `📂 test-design` |
-| **Test Implementation** | Test Procedures<br>Automated Test Scripts<br>Test Suites<br>Execution Schedule | `📂 test-implementation` |
+| **Test Design** | Prioritized Test Cases (High Level)<br>Decision Tables<br>Test Charters<br>Coverage Items<br>Test Data Requirements | `📂 test-design` |
+| **Test Implementation** | Test Procedures<br>Automated Test Scripts<br>Test Suites<br>Execution Schedule <br> Test Data | `📂 test-implementation` |
 | **Test Execution** | **Unit:** Python Logic Scripts<br>**API:** Postman Collections (JSON Validation)<br>**UI:** Black-Box on Financial Platforms | `📂 execution` |
 | **Test Reporting** | Test Summary Reports (TSR)<br>Bug Logs / Defect Reports | `📂 reports` |
 
