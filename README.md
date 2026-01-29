@@ -21,17 +21,19 @@ This mapping demonstrates the alignment between the Software Testing Life Cycle 
 ## 🎯 Target Platforms for Practice
 > I use the following platforms to apply Black-box test design techniques within the Financial and Banking domains:
 
-### 1. [Altoro Mutual (by IBM)](https://demo.testfire.net/)
+### 1. [ParaBank (by Parasoft)](https://github.com/olha-yatskivska/qa-artifacts/tree/main/projects/parabank)
+* A robust simulation of a real-world bank with complex workflows.
+  * **Domain:** Personal Banking & Lending Services.
+  * **Testing Focus:** New account opening, Loan Request processing, and customer administration.
+  * **Key Techniques:** State Transition Testing (loan application statuses: Pending -> Approved/Denied) and Equivalence Partitioning (interest rates based on deposit amounts).
+
+
+### 2. [Altoro Mutual (by IBM)](https://demo.testfire.net/)
 * A classic demo application representing a retail banking system.
   * **Domain:** Retail Banking.
   * **Testing Focus:** User authentication, fund transfers between accounts, transaction history, and statement search functionality.
   * **Key Techniques:** Ideal for Boundary Value Analysis (transfer limits), Decision Tables (login logic), and Error Guessing.
 
-### 2. [ParaBank (by Parasoft)](https://parabank.parasoft.com/parabank/index.htm)
-* A robust simulation of a real-world bank with complex workflows.
-  * **Domain:** Personal Banking & Lending Services.
-  * **Testing Focus:** New account opening, Loan Request processing, and customer administration.
-  * **Key Techniques:** State Transition Testing (loan application statuses: Pending -> Approved/Denied) and Equivalence Partitioning (interest rates based on deposit amounts).
 
 ### 3. [DBank Demo](http://dbankdemo.com/)
 * A modern interface that mimics a contemporary digital banking experience.
