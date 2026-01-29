@@ -1,4 +1,12 @@
-## 🔗 Requirements & Risk Traceability Matrix (RTM)
+# 📋 Template: Requirements & Risk Traceability Matrix (RTM)
+
+**Project:** [Insert Project Name]  
+**Test Basis:** [Link to Requirements/Specifications]  
+**Prioritized Test Conditions:** [e.g., Atomic Field Decomposition / Boundary Value Analysis]
+
+
+---
+
 
 | Requirement ID | Requirement Description | Risk Level | Linked Test Conditions | Coverage Status |
 | :--- | :--- | :--- | :--- | :--- |
