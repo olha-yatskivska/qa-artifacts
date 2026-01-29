@@ -9,12 +9,12 @@ This mapping demonstrates the alignment between the Software Testing Life Cycle 
 | :--- | :--- | :--- |
 | **Test Planning** | [One-page Test Plan #TP001](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-plans/templates/One_Page_Test_Plan.md) | [📂 test-plans](https://github.com/olha-yatskivska/qa-artifacts/tree/main/test-plans) |
 | **Test Analysis** | [Requirements Specification Review Checklist](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/reviews/Requirements_Checklist.md)<br>  <br>[Static_Review_No_Requirements](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/templates/Static_Review_No_Requirements.md)<br> <br>[Prioritized Test Conditions](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/Prioritized_Test_Conditions.md)<br> <br>[Requirements & Risk Traceability Matrix](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/RTM.md)<br>| [📂 test analysis](https://github.com/olha-yatskivska/qa-artifacts/tree/main/test-analysis) |
-| **Test Design** |  [API & UI Test Scenarios / Checklists]()| `📂 checklists` |
-| **Test implementation** |Test Procedures, Automated Test Scripts, Test Suites, Test Data, Test Execution Schedule|`📂 checklists`|
-| **Test Execution: Unit Level** | [Python Logic & Data Cleaning Scripts]() | `📂 basics-and-control-flow` |
-| **Test Execution: API Level** | [Postman Collections & JSON Validations]() | `📂 network-programming` |
-| **Test Execution: UI Level** | [Black-Box Testing on Financial Platforms](.) | `📂 target-platforms` |
-| **Test Reporting** | [Test Summary Reports & Bug Logs]() | `📂 reports` |
+| **Test Design** |  API & UI Test Scenarios / Checklists <br> Decision Table <br> Diagram <br> Test Charter <br> Prioritized Test Cases <br>  Test Charters<br> Coverage Items<br> Test Data & Test Environment requirements| `📂 test design` |
+| **Test implementation** |Test Procedures <br> Automated Test Scripts <br> Test Suites <br> Test Data <br> Test Execution Schedule|`📂 test implementation`|
+| **Test Execution: Unit Level** | Python Logic & Data Cleaning Scripts | `📂 basics-and-control-flow` |
+| **Test Execution: API Level** | Postman Collections & JSON Validations | `📂 network-programming` |
+| **Test Execution: UI Level** | Black-Box Testing on Financial Platforms | `📂 target-platforms` |
+| **Test Reporting** | Test Summary Reports <br> Bug Logs | `📂 reports` |
 
 ---
 
