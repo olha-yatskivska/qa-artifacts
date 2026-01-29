@@ -1,3 +1,5 @@
+# 📊 Decision Table: Password Strength & Confirmation Logic
+
 **ID:** DT-02  
 **Scope:** Validation of password complexity levels and matching logic to ensure account security and optimal UX during registration.
 
@@ -5,6 +7,7 @@
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **Passwords Match?** | No | Yes | Yes | Yes | Yes |
 | **Complexity Level** | Any | Invalid/Too Short | Weak | Medium | Strong |
+| --- | --- | --- | --- | --- | --- | ---| 
 | **Actions** | | | | | |
 | **Show "Mismatch" Error** | X | | | | |
 | **Indicator Color** | Gray | Red | Orange | Yellow | Green |
