@@ -7,10 +7,10 @@ This mapping demonstrates the alignment between the Software Testing Life Cycle 
 
 | Test Activity | Corresponding Testware (Artifacts) | Folder / Reference |
 | :--- | :--- | :--- |
-| **Test Planning** | [One-page Test Plan #TP001](./test-plans/templates/one-page-test-plan.md) | [📂 test-plans](./test-plans/) |
-| **Test Analysis** |  [Requirements Specification Review Checklist](./static-testing/reviews/requirements-checklist.md)  [Static_Review_No_Requirements](./static-testing/templates/Static_Review_No_Requirements.md)| [📂 checklists](./static-testing/) |
-| **Test Design** | [API & UI Test Scenarios / Checklists]() | `📂 checklists` |
-|** Test implementation**|Test Procedures, Automated Test Scripts, Test Suites, Test Data, Test Execution Schedule|`📂 checklists`|
+| **Test Planning** | [One-page Test Plan #TP001](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-plans/templates/One_Page_Test_Plan.md) | [📂 test-plans](https://github.com/olha-yatskivska/qa-artifacts/tree/main/test-plans) |
+| **Test Analysis** |  [Requirements Specification Review Checklist](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/reviews/Requirements_Checklist.md)  [Static_Review_No_Requirements](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/static-testing/templates/Static_Review_No_Requirements.md) [Prioritized Test Conditions](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/Prioritized_Test_Conditions.md) [Requirements & Risk Traceability Matrix](https://github.com/olha-yatskivska/qa-artifacts/blob/main/test-analysis/templates/RTM.md)| [📂 test analysis](https://github.com/olha-yatskivska/qa-artifacts/tree/main/test-analysis) |
+| **Test Design** |  [API & UI Test Scenarios / Checklists]()| `📂 checklists` |
+| **Test implementation** |Test Procedures, Automated Test Scripts, Test Suites, Test Data, Test Execution Schedule|`📂 checklists`|
 | **Test Execution: Unit Level** | [Python Logic & Data Cleaning Scripts]() | `📂 basics-and-control-flow` |
 | **Test Execution: API Level** | [Postman Collections & JSON Validations]() | `📂 network-programming` |
 | **Test Execution: UI Level** | [Black-Box Testing on Financial Platforms](.) | `📂 target-platforms` |
